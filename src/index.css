@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navItemNumber{
+    @apply text-xs ml-4 mt-4;
+}
+
+.navItemText{
+    @apply text-lg ml-4 mb-4;
+}
+
+.navButton{
+    @apply items-start border cursor-pointer flex flex-col justify-between min-h-[104px] relative w-[178px] m-0 p-0 rounded-2xl border-solid border-[#0000];
+}
